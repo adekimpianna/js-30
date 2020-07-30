@@ -12,10 +12,11 @@
 ---
 
 ## Introduction
-to fill out
-  
- 
 
+In this exercise we will have a set of input elements of checkbox type. The user will be allowed to make a single or multiple selection.  
+When he wants to make a single selection he can click on the input and once it selected the text will strike through. 
+Incase he wants to make multiple selection, first he needs to click the first input as a tart point then he holds the shift key and click another input as the end point by this all the inputs inbetween will be selected and the texts will strike through. This selection should work both directions, top to bottom and bottom to top.
+      
 ### What are the goals?
 * to _analyse and do separation of the codes_: separate the codes in order to make the codes clearer, not mixed with unrelated codes that is supposed to be on the file
 * to _re-make the project_ : based on the tutorial
@@ -42,4 +43,4 @@ The project is simple but it has branches that represents the user stories which
 ---
 
 ## Other
-to fill out later
+In this exercise we will use the click event. 
