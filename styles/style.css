@@ -1,0 +1,47 @@
+
+/* Styling the font type and the background color for the whole page */
+
+html {
+    font-family: sans-serif;
+    background: #ffc600;
+  }
+
+/* Styling the checkbox list */
+.inbox {
+    max-width: 350px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the checkboxes */
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    text-align: left, center;
+  }
+
+/* Strike-through the selected checkbox */ 
+input:checked + p{
+    text-decoration: line-through;
+    background:#F7F7F7;
+}
+
+/* Styling the the input*/ 
+input {
+    margin: 15px;
+}
+
+/* Styling the paragraph */ 
+p {
+    margin:auto;
+    padding: 20px;
+    flex: 1;
+    font-size: 16px;
+    border-left: 1px solid lightgray;
+  }
+
+
+ 
